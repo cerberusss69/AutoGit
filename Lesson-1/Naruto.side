@@ -1,0 +1,112 @@
+{
+  "id": "24530dae-7a9c-4afe-bcfb-5ce5bc233db6",
+  "version": "2.0",
+  "name": "Naruto",
+  "url": "https://jut.su",
+  "tests": [{
+    "id": "1e281cae-ac6f-47a4-8d13-c1e76d3814b8",
+    "name": "Untitled",
+    "commands": [{
+      "id": "891ecce3-57ef-4afb-a887-9d42153fae9f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9255b75b-c6bf-47fd-80d4-61f94ef24593",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x738",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc3ed7ed-01e7-4659-a1f1-486ee3e2e89a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Смотреть Наруто",
+      "targets": [
+        ["linkText=Смотреть Наруто", "linkText"],
+        ["css=.sidebar li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Смотреть Наруто')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/naruuto/')])[3]", "xpath:href"],
+        ["xpath=//div[5]/div[2]/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Смотреть Наруто')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91bfdab6-a20f-46ec-9bf2-10bd90a6f1e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.all_anime_global:nth-child(2) img",
+      "targets": [
+        ["css=.all_anime_global:nth-child(2) img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://gen.jut.su/templates/school/images/anime_naruto_season-2.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='dle-content']/div[2]/div[2]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d7bc2aa-c11f-472b-a80b-c5457208ff8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.short-btn:nth-child(143)",
+      "targets": [
+        ["css=.short-btn:nth-child(143)", "css:finder"],
+        ["xpath=//div[@id='dle-content']/div/div[2]/div[2]/a[131]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://jut.su/naruuto/season-2/episode-131.html')]", "xpath:href"],
+        ["xpath=//a[131]", "xpath:position"],
+        ["xpath=//a[contains(.,'131 серия')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64ea3792-9704-477f-b29a-a67188254664",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "997c5b2e-7f2b-4544-b897-2b52fa519d71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.videoplayer_thumb:nth-child(6)",
+      "targets": [
+        ["css=.videoplayer_thumb:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='video_player']/div/div[3]/div[6]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1cf2305-619a-4594-a059-77d7e033d806",
+      "comment": "",
+      "command": "click",
+      "target": "css=.videoplayer_media",
+      "targets": [
+        ["css=.videoplayer_media", "css:finder"],
+        ["xpath=//div[@id='video_player']/div/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed7c5b15-8717-4fa3-9415-e8b5d87cc48b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "423ad615-766a-4067-9af1-3fd3cb41bcee",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1e281cae-ac6f-47a4-8d13-c1e76d3814b8"]
+  }],
+  "urls": ["https://jut.su/"],
+  "plugins": []
+}
